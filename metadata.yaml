@@ -1,0 +1,17 @@
+name: swarm-mode
+summary: swarm mode clustering solution
+maintainer: Yu Hsiang Sean Hsu <yu.hsiang.sean.hsu@verizon.com>
+description: |
+  clustering solution using integrated docker swarm mode
+tags:
+  - ops
+subordinate: false
+#provides:
+#  provides-relation:
+#    interface: interface-name
+#requires:
+#  requires-relation:
+#    interface: interface-name
+#peers:
+#  peer-relation:
+#    interface: interface-name

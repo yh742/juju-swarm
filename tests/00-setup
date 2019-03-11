@@ -1,0 +1,8 @@
+#!/bin/bash
+
+dpkg -s amulet
+if [ $? -ne 0 ]; then
+   sudo add-apt-repository ppa:juju/stable -y
+   sudo apt-get update
+   sudo apt-get install amulet python-requests -y
+fi

@@ -1,0 +1,17 @@
+#!/usr/bin/python3
+
+import amulet
+import requests
+import unittest
+
+class TestCharm(unittest.TestCase):
+
+    def testDeploy(self):
+        self.d = amulet.Deployment()
+        self.d.add('local:swarm-mode')
+        self.d.expose('swarm-mode')
+        self.d.setup(timeout=240)
+        self.d.sentry.wait()
+        
+if __name__ == '__main__':
+    unittest.main()

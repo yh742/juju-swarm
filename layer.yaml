@@ -1,0 +1,2 @@
+includes: ['layer:docker']  # if you use any interfaces, add them here
+repo: https://github.com/yh742/juju-swarm.git
