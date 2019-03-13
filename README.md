@@ -8,7 +8,7 @@ juju deploy ./swarm-mode
 
 # Connect to Docker Daemon
 
-juju scp swarm/0:swarm_credentials.tar .juju scp swarm/0:swarm_credentials.tar . <br />
+juju scp swarm/0:swarm_credentials.tar .juju scp swarm-mode/0:swarm_credentials.tar . <br />
 tar zxf swarm_credentials.tar<br />
 cd swarm_credentials<br />
 source enable.sh<br />
