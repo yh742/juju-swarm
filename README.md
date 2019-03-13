@@ -18,3 +18,9 @@ this downloads the appropraite credentials for accessing the swarm and set the e
 # Scaling
 
 juju add-unit swarm-mode
+
+# Notes
+
+For docker-compose to work, export the following variable to the environemnt:
+
+export COMPOSE_TLS_VERSION=TLSv1_2
