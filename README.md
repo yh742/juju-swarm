@@ -2,6 +2,10 @@
 
 Juju swarm mode charm layer 
 
+# Build
+
+charm build . 
+
 # Usage
 
 juju deploy ./swarm-mode
